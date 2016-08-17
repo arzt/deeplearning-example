@@ -1,4 +1,4 @@
-package plista.deeplearning;
+package com.github.arzt.deeplearning;
 
 import org.apache.commons.io.FileUtils;
 import org.deeplearning4j.nn.api.Layer;

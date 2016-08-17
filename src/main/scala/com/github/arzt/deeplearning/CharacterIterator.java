@@ -1,4 +1,4 @@
-package plista.deeplearning;
+package com.github.arzt.deeplearning;
 
 import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
 import org.nd4j.linalg.api.ndarray.INDArray;
