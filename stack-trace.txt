@@ -1,0 +1,11 @@
+Exception in thread "main" java.lang.ExceptionInInitializerError
+	at org.deeplearning4j.nn.conf.NeuralNetConfiguration$Builder.seed(NeuralNetConfiguration.java:485)
+	at com.github.arzt.deeplearning.GravesLSTMCharModellingExample.main(GravesLSTMCharModellingExample.java:67)
+Caused by: java.lang.RuntimeException: org.nd4j.linalg.factory.Nd4jBackend$NoAvailableBackendException: Please ensure that you have an nd4j backend on your classpath. Please see: http://nd4j.org/getstarted.html
+	at org.nd4j.linalg.factory.Nd4j.initContext(Nd4j.java:5151)
+	at org.nd4j.linalg.factory.Nd4j.<clinit>(Nd4j.java:169)
+	... 2 more
+Caused by: org.nd4j.linalg.factory.Nd4jBackend$NoAvailableBackendException: Please ensure that you have an nd4j backend on your classpath. Please see: http://nd4j.org/getstarted.html
+	at org.nd4j.linalg.factory.Nd4jBackend.load(Nd4jBackend.java:178)
+	at org.nd4j.linalg.factory.Nd4j.initContext(Nd4j.java:5148)
+	... 3 more
