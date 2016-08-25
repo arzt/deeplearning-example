@@ -8,7 +8,7 @@ scalaVersion := "2.11.8"
 classpathTypes += "maven-plugin"
 
 libraryDependencies ++= Seq(
-  "org.nd4j" % "nd4j-native" % "0.5.0" classifier "linux-x86_64",
+  "org.nd4j" % "nd4j-native-platform" % "0.5.0",
   "org.deeplearning4j" % "deeplearning4j-core" % "0.5.0"
 )
 
